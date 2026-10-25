@@ -1,0 +1,7 @@
+# GBK 编码的成品 bat 必须按二进制存储，避免换行/编码被改写导致无法运行
+EdgeUpdateBlocker.bat binary
+
+# UTF-8 源码保持 CRLF
+*.utf8.bat text eol=crlf
+
+* text=auto eol=crlf

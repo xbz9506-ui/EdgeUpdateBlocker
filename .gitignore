@@ -1,0 +1,16 @@
+# 构建目录与运行产物
+.build/
+logs/
+backup/
+
+# 本地项目数据
+.workbuddy/
+
+# 临时凭证（用完即删，绝不提交）
+.token.txt
+.token
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+*.log
