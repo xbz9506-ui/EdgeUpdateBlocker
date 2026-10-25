@@ -1,7 +1,9 @@
-# GBK 编码的成品 bat 必须按二进制存储，避免换行/编码被改写导致无法运行
+# 默认按文本处理，统一 CRLF
+* text=auto eol=crlf
+
+# GBK 成品 bat 必须二进制存储，禁止任何换行/编码改写
+# （必须放在 * 之后，gitattributes 是后面的规则覆盖前面的）
 EdgeUpdateBlocker.bat binary
 
 # UTF-8 源码保持 CRLF
 *.utf8.bat text eol=crlf
-
-* text=auto eol=crlf
